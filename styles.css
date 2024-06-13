@@ -2,18 +2,26 @@ h1 {
     font-family: "Helvetica Neue", "Roboto";
     text-align: center;
     font-size: 38px;
-    font-weight: bold;
+    font-weight: 250;
+    border: 2px solid rgb(241, 167, 138);
+    padding: 25px; 
 }
 
-
+h2 {
+    font-weight: 400;
+}
 
 .links {
     font-size: 18px;
+    margin: 200px; 
+    padding-right: 55px; 
 }
 
 * {
     background-color: azure;
     font-family: "Helvetica Neue", "Roboto";
+    font-weight: 200; 
+    font-size: 25px; 
 }
 
 
@@ -22,7 +30,19 @@ ul.links {
     font-family: "Helvetica Neue", "Roboto";
     text-align: center;
     list-style-type: none;
+    border: 2px solid rgb(204, 203, 203); 
+    border-style: dashed;
 }
+
+li.front {
+    border: 2px solid rgb(242, 198, 181);
+    padding: 10px; 
+    margin: 20px;
+    font-weight: 200; 
+    font-size: 25px; 
+}
+
+
 
 img {
     display: block;
